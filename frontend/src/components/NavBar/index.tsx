@@ -1,5 +1,3 @@
-import React from 'react';
-
 import imgDsDark from '../../assets/images/ds_dark.svg';
 
 const NavBar = () => {
