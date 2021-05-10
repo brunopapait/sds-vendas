@@ -37,7 +37,7 @@ const BarChart = () => {
         const data = response.data as SaleSuccess[];
         console.log(response.data);
 
-        const labels = data.map(item => item.salerName);
+        const labels = data.map(item => item.sellerName);
         const series = data.map(item => round(100.0 * (item.deals / item.visited), 1));
 
         setChartData({
